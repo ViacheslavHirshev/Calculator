@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+
+.calculator {
+    background-color: black;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.display {
+    background-color: #aaa;
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    height: 100px;
+    align-content: end;
+    text-align: right;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calc-button {
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+}
+
+#zero-button {
+    flex: 2 1 0;
+}
